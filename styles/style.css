@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.container {
+  max-width: 1111px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__container .logo img {
+  width: 200px;
+}
+.nav .nav-list {
+  display: flex;
+  list-style-type: none;
+  gap: 49px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: -0.47px;
+  color: #696871;
+  font-family: "DM Sans", sans-serif;
+  transition: 0.5s;
+  padding-bottom: 10px;
+}
+.nav-list a:hover {
+  color: #19191b;
+  border-bottom: 2px solid #5454d4;
+}
+
+.header__container .button {
+  padding: 19px 60px;
+  background-color: #ff7143;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  letter-spacing: -0.53px;
+  font-size: 17px;
+  font-family: "DM Sans", sans-serif;
+  color: white;
+}
+
+.header__container .button:hover {
+  background-color: #d13906;
+}
+
+.hero {
+  margin-top: 81px;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-info {
+  width: 459px;
+}
+.hero-info .hero-title {
+  font-family: "DM Sans", sans-serif;
+  color: #191918;
+  font-size: 80px;
+  line-height: 77px;
+  letter-spacing: -2.5px;
+  margin-bottom: 30px;
+}
+
+.hero-info .hero-desk {
+  color: #696871;
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+  letter-spacing: -0.63px;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.hero-buttons .start-btn {
+  border: none;
+  padding: 19px 59px;
+  background-color: #5454d4;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "DM Sans", sans-serif;
+  font-size: 17px;
+  color: white;
+  letter-spacing: -0.53px;
+  transition: all 0.5s;
+}
+
+.hero-buttons .start-btn:hover {
+  background-color: #3434a0;
+}
+
+.hero-buttons .arrow-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #e7e7e7;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.hero-buttons .arrow-btn:hover {
+  border-color: #2929a3;
+}
+
+.logos {
+  margin-top: 89px;
+  margin-bottom: 150px;
+}
+
+.logos__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subs {
+  margin-bottom: 102px;
+}
+
+.subs_container {
+  display: flex;
+  align-items: center;
+  gap: 165.6px;
+}
+
+.subs .subs-info {
+  max-width: 556px;
+}
+.subs-info .info-title {
+  font-size: 50px;
+  font-family: "DM Sans", sans-serif;
+  color: #19191b;
+  letter-spacing: -1.56;
+  margin-bottom: 30px;
+}
+
+.subs-info .desk-info {
+  color: #696871;
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.subs .subs-link {
+  font-size: 17px;
+
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+  color: #5454d4;
+}
+
+.metrics {
+  margin-bottom: 102px;
+}
+
+.metrikc_container {
+  display: flex;
+  align-items: center;
+  gap: 165.6px;
+}
+
+.metrics .metricks-info {
+  max-width: 556px;
+}
+.metrikcs-info .metrikcs-title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 50px;
+  letter-spacing: -1.56px;
+  color: #19191b;
+  margin-bottom: 30px;
+}
+
+.metrikcs-info .metrics-desk {
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  color: #696871;
+  letter-spacing: -0.63;
+  margin-bottom: 30px;
+}
+
+.metrikcs-info .metrics-link {
+  color: #5454d4;
+  font-size: 17px;
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: -0.53px;
+  text-decoration: none;
+}
+
+.cards {
+  margin-top: 119px;
+}
+
+.cards_container {
+  display: flex;
+  justify-content: center;
+  gap: 74px;
+}
+
+.cards_container .card {
+  max-width: 307px;
+
+  text-align: center;
+}
+.card .card-title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  color: #19191b;
+  letter-spacing: -0.74px;
+}
+.card .card-desk {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  color: #696871;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.sell {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.sell-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sell-top .sell-title {
+  width: 523px;
+  font-size: 60px;
+  font-family: "DM Sans", sans-serif;
+  line-height: 70px;
+  letter-spacing: -1.88px;
+  color: #19191b;
+}
+
+.sell-top .choos {
+  width: 346px;
+  padding: 5px;
+  background-color: #f7f7fb;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+.sell-top .choos button {
+  border: none;
+  cursor: pointer;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 50%;
+  transition: 0.5s;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  color: #19191b;
+}
+
+.choos button:hover {
+  background-color: #5454d4;
+  color: white;
+}
+
+.choos button:nth-child(1) {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.choos button:nth-child(2) {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.sell-bottom {
+  margin-top: 82px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sell-bottom .block {
+  background-color: #f8f8f8;
+  width: 330px;
+  padding: 34px 24px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.sell-bottom .block:hover {
+  background-color: #ff7143;
+  color: white;
+  transform: scale(1.1);
+}
+
+.sell-bottom .block p {
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: -0.56px;
+  color: #696871;
+}
+.sell-bottom .block h3 {
+  font-size: 60px;
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: -1.03;
+  margin-bottom: 28px;
+  color: #1d293f;
+}
+
+.sell-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 36px;
+}
+
+.sell-info span {
+  font-family: "Mulish", sans-serif;
+  font-size: 17px;
+  letter-spacing: -0.53px;
+  margin-bottom: 28px;
+  color: #696871;
+}
+
+.sell-bottom .block button {
+  border-radius: 10px;
+  width: 100%;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  cursor: pointer;
+  border: none;
+  background-color: #eae9f2;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 17px;
+  line-height: 19.92px;
+  letter-spacing: -0.53px;
+  color: #5454d4;
+}
+
+.sell-bottom .block button:hover {
+  background-color: #9f3919;
+}
